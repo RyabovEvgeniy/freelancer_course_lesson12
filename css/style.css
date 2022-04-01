@@ -25,4 +25,87 @@ body {
 }
 /* ===== end main ===== */
 
+.avto {
+}
+.avto__container {
+}
+.avto__body {
+}
+.avto__roof {
+}
+.avto__cabin {
+}
+.avto__windows {
+}
+.avto__wheel {
+}
+.wheel-avto {
+}
+.wheel-avto__left {
+	width: 100px;
+	height: 100px;
+	background-color: #333;
+	border-radius: 50%;
+	position: relative;
+	transform: rotate(180deg);
+	outline: 40px solid #303C3C;
+	overflow: hidden;
+}
+.wheel-avto__left_item-1 {
+	width: 30px;
+	height: 30px;
+	background-color: #FFD700;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 5;
+	top: 35px;
+	left: 35px;
+}
+.wheel-avto__left_item-2 {
+	width: 5px;
+	height: 50px;
+	background-color: #FFD700;
+	position: absolute;
+	top: 0px;
+	left: 69px;
+	transform: rotate(43deg);
+}
+.wheel-avto__left_item-3 {
+	width: 5px;
+	height: 50px;
+	background-color: #FFD700;
+	position: absolute;
+	top: 0px;
+	left: 26px;
+	transform: rotate(321deg);
+}
+.wheel-avto__left_item-4 {
+	width: 5px;
+	height: 50px;
+	background-color: #FFD700;
+	position: absolute;
+	top: 35px;
+	left: 25px;
+	transform: rotate(65deg);
+}
+.wheel-avto__left_item-5 {
+	width: 5px;
+	height: 50px;
+	background-color: #FFD700;
+	position: absolute;
+	top: 39px;
+	left: 80px;
+	transform: rotate(292deg);
+}
+.wheel-avto__left_item-6 {
+	width: 5px;
+	height: 50px;
+	background-color: #FFD700;
+	position: absolute;
+	top: 65px;
+	left: 47px;
+	transform: rotate(180deg);
+}
 
+.wheel-avto__right {
+}
