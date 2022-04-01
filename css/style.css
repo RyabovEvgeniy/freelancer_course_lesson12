@@ -1,0 +1,28 @@
+/* ===== wrapper ===== */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ===== end wrapper ===== */
+
+/* ===== container ===== */
+[class*="__container"] {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+/* ===== end container ===== */
+
+/* ===== body ===== */
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+}
+/* ===== end body ===== */
+
+/* ===== main ===== */
+.main {
+	padding: 200px 0px 200px 0px;
+}
+/* ===== end main ===== */
+
+
