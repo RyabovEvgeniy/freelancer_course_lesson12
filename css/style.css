@@ -53,8 +53,38 @@ body {
 .roof-avto__item-3 {
 }
 /* ===== end avto__roof ===== */
+
+/* ===== avto__cabin ===== */
 .avto__cabin {
+	width: 500px;
+	height: 300px;
+	background-color: #C0C0C0;
+	position: relative;
 }
+.cabin-avto {
+	position: absolute;
+	top: 450px;
+	left: 250px;
+
+}
+.cabin-avto__item-1 {
+	width: 230px;
+	height: 120px;
+	background-color: #D3D3D3;
+	border-radius: 100% 0% 98% 2% / 57% 100% 0% 43%;
+	position: absolute;
+	top: 50%;
+}
+.cabin-avto__item-2 {
+}
+.cabin-avto__item-3 {
+}
+.cabin-avto__item-4 {
+}
+.cabin-avto__item-5 {
+}
+/* ===== end avto__cabin ===== */
+
 .avto__windows {
 }
 
@@ -73,7 +103,7 @@ body {
 	outline: 20px solid #303C3C;
 	overflow: hidden;
 	position: absolute;
-	top: 500px;
+	top: 700px;
 	left: 200px;	
 }
 .wheel-avto__left_item-1 {
@@ -137,12 +167,11 @@ body {
 	height: 100px;
 	background-color: #333;
 	border-radius: 50%;
-	/* position: relative; */
 	transform: rotate(180deg);
 	outline: 20px solid #303C3C;
 	overflow: hidden;
 	position: absolute;
-	top: 500px;
+	top: 700px;
 	left: 700px;
 }
 .wheel-avto__right_item-1 {
