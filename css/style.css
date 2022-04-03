@@ -68,16 +68,28 @@ body {
 
 }
 .cabin-avto__item-1 {
-	width: 230px;
+	width: 245px;
 	height: 120px;
 	background-color: #D3D3D3;
 	border-radius: 100% 0% 98% 2% / 57% 100% 0% 43%;
 	position: absolute;
-	top: 50%;
+	top: 170px;
 }
 .cabin-avto__item-2 {
+	width: 245px;
+	height: 120px;
+	background-color: #D3D3D3;
+	/* border-radius: 100% 0% 98% 2% / 57% 100% 0% 43%; */
+	position: absolute;
+	top: 170px;
+	left: 50%;
 }
 .cabin-avto__item-3 {
+	width: 500px;
+	height: 10px;
+	background-color: #000;
+	position: absolute;
+	top: 97%;
 }
 .cabin-avto__item-4 {
 }
